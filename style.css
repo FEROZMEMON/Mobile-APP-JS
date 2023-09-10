@@ -16,14 +16,60 @@ img {
     width: 250px;
     height: 250px;
 border-radius: 10px;
+border: 1px solid black;
+cursor: pointer;
+}
+
+
+img:hover{
+    scale: 0.9;
+    transition: all ease 1s;
+
 }
 
 h2 {
     text-align: center;
 }
+
 h1{
     margin: 20px 0 0 80px;
 }
+
 body{
     background-color: bisque;
 }
+
+.btn:hover{
+   transition: all ease 1s;
+   background-color: lightblue;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+h4{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

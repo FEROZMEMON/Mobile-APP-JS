@@ -63,17 +63,17 @@ const phones = [
 
 for (let i = 0; i < phones.length; i++) {
     div.innerHTML +=
-        `<div class="main">
-<img src="${phones[i].img}">
-<h2>Brand: ${phones[i].brand}</h2>
-<h4>Model: ${phones[i].model}</h4>
-<h4>Ram: ${phones[i].ram}</h4>
-<h4>Rom: ${phones[i].rom}</h4>
-<h4>Camera: ${phones[i].camera}</h4>
- <br>
-<button class="btn" >ADD CART</button>
+ `<div class="main">
+  <h2>Brand: ${phones[i].brand}</h2>
+  <img src="${phones[i].img}">
+  <h4>Model: ${phones[i].model}</h4>
+  <h4>Ram: ${phones[i].ram}</h4>
+  <h4>Rom: ${phones[i].rom}</h4>
+  <h4>Camera: ${phones[i].camera}</h4>
+  <br>
+  <button class="btn" >ADD CART</button>
 
-</div>`
+ </div>`
 }
 
 
