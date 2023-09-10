@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 40px;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+h1{
+    margin: 20px 0 0 80px;
+}
+body{
+    background-color: bisque;
+}
