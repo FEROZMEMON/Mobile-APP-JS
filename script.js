@@ -8,7 +8,8 @@ const phones = [
         model: 'S20',
         ram: 8,
         rom: 256,
-        camera: '20 megapixel'
+        camera: '20 megapixel',
+        price: 15000
     },
     {
         brand: 'Xiaomi',
@@ -16,7 +17,8 @@ const phones = [
         model: 'note10',
         ram: 4,
         rom: 64,
-        camera: '10 megapixel'
+        camera: '10 megapixel',
+        price: 15000
     },
     {
         brand: 'Infinix',
@@ -24,7 +26,8 @@ const phones = [
         model: 'z10',
         ram: 2,
         rom: 16,
-        camera: '5 megapixel'
+        camera: '5 megapixel',
+        price: 15000
     },
     {
         brand: 'Tecno',
@@ -32,7 +35,8 @@ const phones = [
         model: 'spark10',
         ram: 12,
         rom: 512,
-        camera: '25 megapixel'
+        camera: '25 megapixel',
+        price: 15000
     },
     {
         brand: 'Iphone',
@@ -40,7 +44,8 @@ const phones = [
         model: '14',
         ram: 4,
         rom: 1024,
-        camera: '30 megapixel'
+        camera: '30 megapixel',
+        price: 15000
     },
     {
         brand: 'Oppo',
@@ -48,7 +53,8 @@ const phones = [
         model: 'F11',
         ram: 8,
         rom: 256,
-        camera: '20 megapixel'
+        camera: '20 megapixel',
+        price: 15000
     },
     {
         brand: 'Vivo',
@@ -56,7 +62,8 @@ const phones = [
         model: 'y20',
         ram: 4,
         rom: 64,
-        camera: '8 megapixel'
+        camera: '8 megapixel',
+        price: 15000
     },
 
 ]
@@ -70,6 +77,7 @@ for (let i = 0; i < phones.length; i++) {
   <h4>Ram: ${phones[i].ram}</h4>
   <h4>Rom: ${phones[i].rom}</h4>
   <h4>Camera: ${phones[i].camera}</h4>
+  <h4>Price: ${phones[i].price}</h4>
   <br>
   <button class="btn" >ADD CART</button>
 
