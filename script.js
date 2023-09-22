@@ -79,12 +79,14 @@ for (let i = 0; i < phones.length; i++) {
   <h4>Camera: ${phones[i].camera}</h4>
   <h4>Price: ${phones[i].price}</h4>
   <br>
-  <button class="btn" >ADD CART</button>
+  <button class="btn" onclick="goToCart()" >ADD CART</button>
 
  </div>`
 }
 
-
+function goToCart() {
+    window.location = "./cart.html"
+}
 
 
 
